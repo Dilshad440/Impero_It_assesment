@@ -28,7 +28,6 @@ class ProductWidgets extends StatelessWidget {
                 return Container(
                   width: 150,
                   decoration: BoxDecoration(
-                    color: Colors.red,
                     image: DecorationImage(
                       fit: BoxFit.fill,
                       image: NetworkImage(product?.imageName ?? ""),
